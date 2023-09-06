@@ -55,7 +55,7 @@ public class CategoryController {
     }
     @PostMapping("/delete")
     public String categoryDelete(Long id){
-        categoryDao.delete(categoryDao.findById(id));
+        categoryDao.deleteById(id);
         return "redirect:/category/list";
     }
 }

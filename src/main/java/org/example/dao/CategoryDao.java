@@ -23,6 +23,10 @@ public class CategoryDao {
         em.remove(category);
     }
 
+    public void deleteById(Long id){
+        em.remove(findById(id));
+    }
+
     public Category update(Category category){
         return em.merge(category);
     }

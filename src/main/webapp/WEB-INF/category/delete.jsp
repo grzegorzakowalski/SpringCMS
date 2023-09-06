@@ -23,13 +23,13 @@
 <div class="container">
   <main class="articles">
     <div class="form-container">
-      <form>
-        <input type="hidden" value="${category.id}">
+      <form method="post">
+        <input type="hidden" name="id" value="${category.id}">
         <h2 style="position: relative; right: 40%">Czy na pewno chcesz usunąć ${category.name}?</h2>
         <button class="trash-button" type="submit">Tak</button>
-        <a href="<c:url value="/category/list"></c:url>"><button class="arrow-button">Nie</button></a>
+        <a href="<c:url value="/category/list"></c:url>"><button class="arrow-button" type="button">Nie</button></a>
       </form>
-    </div>
+      </div>
   </main>
   <aside class="sidebar">
     <h2 STYLE="text-align: center">Menu</h2>
