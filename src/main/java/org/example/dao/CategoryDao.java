@@ -1,6 +1,7 @@
 package org.example.dao;
 
 import org.example.entity.Category;
+import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
 
 import javax.persistence.EntityManager;
@@ -8,6 +9,7 @@ import javax.persistence.PersistenceContext;
 import java.util.List;
 
 @Transactional
+@Repository
 public class CategoryDao {
 
     @PersistenceContext

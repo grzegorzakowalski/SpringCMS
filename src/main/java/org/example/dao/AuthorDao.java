@@ -1,12 +1,15 @@
 package org.example.dao;
 
 import org.example.entity.Author;
+import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
 
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
+import java.util.List;
 
 @Transactional
+@Repository
 public class AuthorDao {
 
     @PersistenceContext
@@ -22,5 +25,9 @@ public class AuthorDao {
 
     public Author update(Author author){
         return em.merge(author);
+    }
+
+    public List<Author> findAll(){
+        return em.createQuery("SELECT a FROM Author a",Author.class).getResultList();
     }
 }
