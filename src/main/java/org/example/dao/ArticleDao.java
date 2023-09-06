@@ -6,6 +6,7 @@ import org.springframework.transaction.annotation.Transactional;
 
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
+import java.time.LocalDateTime;
 import java.util.List;
 
 @Transactional
@@ -16,6 +17,8 @@ public class ArticleDao {
     private EntityManager em;
 
     public void save(Article article){
+        article.setCreated(LocalDateTime.now());
+        article.setUpdated(LocalDateTime.now());
         em.persist(article);
     }
 
@@ -24,6 +27,7 @@ public class ArticleDao {
     }
 
     public Article update(Article article){
+        article.setUpdated(LocalDateTime.now());
         return em.merge(article);
     }
 

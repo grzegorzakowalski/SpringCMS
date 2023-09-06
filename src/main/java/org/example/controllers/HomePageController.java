@@ -16,6 +16,7 @@ public class HomePageController {
     @GetMapping
     public String homePageView(Model model){
         model.addAttribute("articleList", articleDao.findLastFive());
+        model.addAttribute("siteName","Strona Startowa");
         return "home-page";
     }
 }
