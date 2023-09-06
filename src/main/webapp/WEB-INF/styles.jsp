@@ -74,7 +74,23 @@
     cursor: pointer;
     transition: background-color 0.3s ease;
   }
-  .menu-button:hover {
+  .add-button {
+      display: block;
+      position: relative;
+      margin: 10px auto;
+      padding: 10px 20px;
+      background-color: #005500;
+      color: #fff;
+      text-decoration: none;
+      text-align: right;
+      border: none;
+      border-radius: 3px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      left: 44%;
+
+  }
+  .add-button:hover {
     color: #009900;
   }
   time {
@@ -116,5 +132,78 @@
   a:hover {
       color: #009900;
       cursor: pointer;
+  }
+  /* Styl dla buttona kosza (śmietnika) */
+  .trash-button {
+      background-color: #ff0000;
+      color: #fff;
+      border: none;
+      padding: 4px 8px;
+      border-radius: 50%;
+      cursor: pointer;
+  }
+
+  /* Styl dla buttona strzałki do góry */
+  .arrow-button {
+      background-color: #009900;
+      color: #fff;
+      border: none;
+      padding: 4px 8px;
+      border-radius: 50%;
+      cursor: pointer;
+  }
+  /* Styl dla kontenera formularza */
+  .form-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      position: relative;
+      left: 40%;
+      bottom: 20%;
+  }
+
+  /* Styl dla formularza */
+  .add-form {
+      background-color: #fff;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  /* Styl dla pól formularza */
+  .form-field {
+      margin-bottom: 15px;
+  }
+
+  .form-field label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: bold;
+      color: #009900;
+  }
+
+  .form-field input[type="text"],
+  .form-field textarea {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+
+  }
+
+  /* Styl dla przycisku "Dodaj" */
+  .add-button {
+      background-color: #009900;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+  }
+
+  .add-button:hover {
+      background-color: #005500;
   }
 </style>

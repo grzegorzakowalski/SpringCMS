@@ -9,19 +9,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0fc970d7-79f6-4f53-86eb-4e7527c9ad05" name="Changes" comment="home almost done">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/controllers/CategoryController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/category/list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/footer.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/header.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/side-menu.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/styles.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/styles.css" afterDir="false" />
+    <list default="true" id="0fc970d7-79f6-4f53-86eb-4e7527c9ad05" name="Changes" comment="CategoryListAdded">
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/category/add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/category/delete.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/category/update.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/configuration/WebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/configuration/WebConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/controllers/HomePageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/controllers/HomePageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dao/ArticleDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dao/ArticleDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/home-page.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/home-page.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/controllers/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/controllers/CategoryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dao/CategoryDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dao/CategoryDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/category/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/category/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/styles.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/styles.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -191,7 +187,7 @@
       <option name="presentableId" value="Default" />
       <updated>1693931123155</updated>
       <workItem from="1693931125007" duration="5424000" />
-      <workItem from="1694018928189" duration="5239000" />
+      <workItem from="1694018928189" duration="8710000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1693933564400</created>
@@ -207,7 +203,14 @@
       <option name="project" value="LOCAL" />
       <updated>1694019047423</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="CategoryListAdded">
+      <created>1694024241005</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1694024241006</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -216,6 +219,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First Commit" />
     <MESSAGE value="home almost done" />
-    <option name="LAST_COMMIT_MESSAGE" value="home almost done" />
+    <MESSAGE value="CategoryListAdded" />
+    <option name="LAST_COMMIT_MESSAGE" value="CategoryListAdded" />
   </component>
 </project>

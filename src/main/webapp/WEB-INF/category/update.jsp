@@ -1,4 +1,5 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 <%--
   Created by IntelliJ IDEA.
   User: kowal
@@ -21,31 +22,21 @@
 </header>
 <div class="container">
   <main class="articles">
-    <table>
-      <thead>
-      <tr>
-        <th>Id</th>
-        <th>Nazwa</th>
-        <th>Opis</th>
-        <th>Akcja</th>
-      </tr>
-      </thead>
-      <tbody>
-      <c:forEach items="${categoryList}" var="category">
-      <tr>
-        <td>${category.id}</td>
-        <td>${category.name}</td>
-        <td>${category.description}</td>
-        <td>
-          <a href="<c:url value="/category/delete?id=${category.id}"></c:url>"><button class="trash-button">🗑️</button></a>
-          <a href="<c:url value="/category/update?id=${category.id}"></c:url>"><button class="arrow-button">⬆️</button></a>
-        </td>
-      </tr>
-      </c:forEach>
-
-      </tbody>
-    </table>
-    <button class="add-button"><a href="<c:url value="/category/add"></c:url>">Dodaj kategorię</a></button>
+    <div class="form-container">
+      <form:form modelAttribute="category" method="post">
+        <div class="form-field">
+          <h2 style="color: #009900;">Zaktualizuj kategorię</h2>
+          <label>Nazwa:</label>
+          <form:input path="name"></form:input>
+        </div>
+        <div class="form-field">
+          <label>Opis:</label>
+          <form:textarea path="description"></form:textarea>
+        </div>
+        <form:hidden path="id"></form:hidden>
+        <button type="submit" class="add-button">Zaktualizuj</button>
+      </form:form>
+    </div>
   </main>
   <aside class="sidebar">
     <h2 STYLE="text-align: center">Menu</h2>

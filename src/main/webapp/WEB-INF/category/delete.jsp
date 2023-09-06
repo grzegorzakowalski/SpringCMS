@@ -1,4 +1,5 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 <%--
   Created by IntelliJ IDEA.
   User: kowal
@@ -21,31 +22,14 @@
 </header>
 <div class="container">
   <main class="articles">
-    <table>
-      <thead>
-      <tr>
-        <th>Id</th>
-        <th>Nazwa</th>
-        <th>Opis</th>
-        <th>Akcja</th>
-      </tr>
-      </thead>
-      <tbody>
-      <c:forEach items="${categoryList}" var="category">
-      <tr>
-        <td>${category.id}</td>
-        <td>${category.name}</td>
-        <td>${category.description}</td>
-        <td>
-          <a href="<c:url value="/category/delete?id=${category.id}"></c:url>"><button class="trash-button">🗑️</button></a>
-          <a href="<c:url value="/category/update?id=${category.id}"></c:url>"><button class="arrow-button">⬆️</button></a>
-        </td>
-      </tr>
-      </c:forEach>
-
-      </tbody>
-    </table>
-    <button class="add-button"><a href="<c:url value="/category/add"></c:url>">Dodaj kategorię</a></button>
+    <div class="form-container">
+      <form>
+        <input type="hidden" value="${category.id}">
+        <h2 style="position: relative; right: 40%">Czy na pewno chcesz usunąć ${category.name}?</h2>
+        <button class="trash-button" type="submit">Tak</button>
+        <a href="<c:url value="/category/list"></c:url>"><button class="arrow-button">Nie</button></a>
+      </form>
+    </div>
   </main>
   <aside class="sidebar">
     <h2 STYLE="text-align: center">Menu</h2>
