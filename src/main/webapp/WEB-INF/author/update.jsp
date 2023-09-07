@@ -40,7 +40,10 @@
   </main>
   <aside class="sidebar">
     <h2 STYLE="text-align: center">Menu</h2>
-    <%@include file="/WEB-INF/side-menu.jsp"%>
+    <ul>
+      <li><button class="menu-button"><a href="<c:url value="/"></c:url>">Strona główna</a></button></li>
+      <li><button class="menu-button"><a href="<c:url value="/category/list"></c:url>">Lista kategorii</a></button></li>
+    </ul>
   </aside>
 
 </div>

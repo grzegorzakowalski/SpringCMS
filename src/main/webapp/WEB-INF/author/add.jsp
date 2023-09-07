@@ -23,18 +23,17 @@
 <div class="container">
   <main class="articles">
     <div class="form-container">
-      <form:form modelAttribute="category" method="post">
+      <form:form modelAttribute="author" method="post">
         <div class="form-field">
-          <h2 style="color: #009900;">Zaktualizuj kategorię</h2>
+          <h2 style="color: #009900;">Dodaj kategorię</h2>
           <label>Nazwa:</label>
-          <form:input path="name"></form:input>
+          <form:input path="firstName"></form:input>
         </div>
         <div class="form-field">
           <label>Opis:</label>
-          <form:textarea path="description"></form:textarea>
+          <form:input path="lastName"></form:input>
         </div>
-        <form:hidden path="id"></form:hidden>
-        <button type="submit" class="add-button">Zaktualizuj</button>
+        <button type="submit" class="add-button">Dodaj</button>
       </form:form>
     </div>
   </main>

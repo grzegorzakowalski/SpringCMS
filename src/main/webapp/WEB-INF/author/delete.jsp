@@ -23,24 +23,20 @@
 <div class="container">
   <main class="articles">
     <div class="form-container">
-      <form:form modelAttribute="category" method="post">
-        <div class="form-field">
-          <h2 style="color: #009900;">Zaktualizuj kategorię</h2>
-          <label>Nazwa:</label>
-          <form:input path="name"></form:input>
-        </div>
-        <div class="form-field">
-          <label>Opis:</label>
-          <form:textarea path="description"></form:textarea>
-        </div>
-        <form:hidden path="id"></form:hidden>
-        <button type="submit" class="add-button">Zaktualizuj</button>
-      </form:form>
-    </div>
+      <form method="post">
+        <input type="hidden" name="id" value="${category.id}">
+        <h2 style="position: relative; right: 40%">Czy na pewno chcesz usunąć ${category.name}?</h2>
+        <button class="trash-button" type="submit">Tak</button>
+        <a href="<c:url value="/category/list"></c:url>"><button class="arrow-button" type="button">Nie</button></a>
+      </form>
+      </div>
   </main>
   <aside class="sidebar">
     <h2 STYLE="text-align: center">Menu</h2>
-    <%@include file="/WEB-INF/side-menu.jsp"%>
+    <ul>
+      <li><button class="menu-button"><a href="<c:url value="/"></c:url>">Strona główna</a></button></li>
+      <li><button class="menu-button"><a href="<c:url value="/category/list"></c:url>">Lista kategorii</a></button></li>
+    </ul>
   </aside>
 
 </div>

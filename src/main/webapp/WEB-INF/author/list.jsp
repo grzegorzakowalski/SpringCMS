@@ -25,27 +25,27 @@
       <thead>
       <tr>
         <th>Id</th>
-        <th>Nazwa</th>
-        <th>Opis</th>
+        <th>Imię</th>
+        <th>Nazwisko</th>
         <th>Akcja</th>
       </tr>
       </thead>
       <tbody>
-      <c:forEach items="${categoryList}" var="category">
+      <c:forEach items="${authorList}" var="author">
       <tr>
-        <td>${category.id}</td>
-        <td>${category.name}</td>
-        <td>${category.description}</td>
+        <td>${author.id}</td>
+        <td>${author.firstName}</td>
+        <td>${author.lastName}</td>
         <td>
-          <a href="<c:url value="/category/delete?id=${category.id}"></c:url>"><button class="trash-button">🗑️</button></a>
-          <a href="<c:url value="/category/update?id=${category.id}"></c:url>"><button class="arrow-button">⬆️</button></a>
+          <a href="<c:url value="/author/delete?id=${category.id}"></c:url>"><button class="trash-button">🗑️</button></a>
+          <a href="<c:url value="/author/update?id=${category.id}"></c:url>"><button class="arrow-button">⬆️</button></a>
         </td>
       </tr>
       </c:forEach>
 
       </tbody>
     </table>
-    <button class="add-button"><a href="<c:url value="/category/add"></c:url>">Dodaj kategorię</a></button>
+    <button class="add-button"><a href="<c:url value="/author/add"></c:url>">Dodaj kategorię</a></button>
   </main>
   <aside class="sidebar">
     <h2 STYLE="text-align: center">Menu</h2>

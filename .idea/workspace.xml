@@ -9,8 +9,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0fc970d7-79f6-4f53-86eb-4e7527c9ad05" name="Changes" comment="CategoryUpdateAdded in progress CategoryDelete">
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/category/delete.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/category/delete.jsp" afterDir="false" />
+    <list default="true" id="0fc970d7-79f6-4f53-86eb-4e7527c9ad05" name="Changes" comment="CategoryDeleteAdded">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/controllers/AuthorController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/author/add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/author/delete.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/author/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/author/update.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dao/AuthorDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dao/AuthorDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/side-menu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/side-menu.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +60,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/kowal/projektgit/SpringCMS/src/main/resources/META-INF",
+    "last_opened_file_path": "/home/kowal/projektgit/SpringCMS/src/main/webapp/WEB-INF/author",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -71,6 +77,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/author" />
       <recent name="$PROJECT_DIR$/src/main/resources/META-INF" />
       <recent name="$PROJECT_DIR$/src/main/java/org/example" />
     </key>
@@ -180,7 +187,7 @@
       <option name="presentableId" value="Default" />
       <updated>1693931123155</updated>
       <workItem from="1693931125007" duration="5424000" />
-      <workItem from="1694018928189" duration="9119000" />
+      <workItem from="1694018928189" duration="11164000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1693933564400</created>
@@ -210,7 +217,14 @@
       <option name="project" value="LOCAL" />
       <updated>1694027802943</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="CategoryDeleteAdded">
+      <created>1694028328399</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1694028328399</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -221,6 +235,7 @@
     <MESSAGE value="home almost done" />
     <MESSAGE value="CategoryListAdded" />
     <MESSAGE value="CategoryUpdateAdded in progress CategoryDelete" />
-    <option name="LAST_COMMIT_MESSAGE" value="CategoryUpdateAdded in progress CategoryDelete" />
+    <MESSAGE value="CategoryDeleteAdded" />
+    <option name="LAST_COMMIT_MESSAGE" value="CategoryDeleteAdded" />
   </component>
 </project>

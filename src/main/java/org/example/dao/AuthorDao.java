@@ -30,4 +30,12 @@ public class AuthorDao {
     public List<Author> findAll(){
         return em.createQuery("SELECT a FROM Author a",Author.class).getResultList();
     }
+
+    public Author findById(Long id){
+        return em.find(Author.class, id);
+    }
+
+    public void deleteById(Long id){
+        em.remove(findById(id));
+    }
 }
