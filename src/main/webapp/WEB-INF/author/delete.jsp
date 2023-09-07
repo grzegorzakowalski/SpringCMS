@@ -24,10 +24,10 @@
   <main class="articles">
     <div class="form-container">
       <form method="post">
-        <input type="hidden" name="id" value="${category.id}">
-        <h2 style="position: relative; right: 40%">Czy na pewno chcesz usunąć ${category.name}?</h2>
+        <input type="hidden" name="id" value="${author.id}">
+        <h2 style="position: relative; right: 40%">Czy na pewno chcesz usunąć ${author.firstName}?</h2>
         <button class="trash-button" type="submit">Tak</button>
-        <a href="<c:url value="/category/list"></c:url>"><button class="arrow-button" type="button">Nie</button></a>
+        <a href="<c:url value="/author/list"></c:url>"><button class="arrow-button" type="button">Nie</button></a>
       </form>
       </div>
   </main>
