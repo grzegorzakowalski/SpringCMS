@@ -37,8 +37,8 @@
         <td>${author.firstName}</td>
         <td>${author.lastName}</td>
         <td>
-          <a href="<c:url value="/author/delete?id=${category.id}"></c:url>"><button class="trash-button">🗑️</button></a>
-          <a href="<c:url value="/author/update?id=${category.id}"></c:url>"><button class="arrow-button">⬆️</button></a>
+          <a href="<c:url value="/author/delete?id=${author.id}"></c:url>"><button class="trash-button">🗑️</button></a>
+          <a href="<c:url value="/author/update?id=${author.id}"></c:url>"><button class="arrow-button">⬆️</button></a>
         </td>
       </tr>
       </c:forEach>

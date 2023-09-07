@@ -23,15 +23,15 @@
 <div class="container">
   <main class="articles">
     <div class="form-container">
-      <form:form modelAttribute="category" method="post">
+      <form:form modelAttribute="author" method="post">
         <div class="form-field">
-          <h2 style="color: #009900;">Zaktualizuj kategorię</h2>
-          <label>Nazwa:</label>
-          <form:input path="name"></form:input>
+          <h2 style="color: #009900;">Zaktualizuj autora</h2>
+          <label>Imię:</label>
+          <form:input path="firstName"></form:input>
         </div>
         <div class="form-field">
-          <label>Opis:</label>
-          <form:textarea path="description"></form:textarea>
+          <label>Nazwisko:</label>
+          <form:input path="lastName"></form:input>
         </div>
         <form:hidden path="id"></form:hidden>
         <button type="submit" class="add-button">Zaktualizuj</button>
@@ -40,10 +40,7 @@
   </main>
   <aside class="sidebar">
     <h2 STYLE="text-align: center">Menu</h2>
-    <ul>
-      <li><button class="menu-button"><a href="<c:url value="/"></c:url>">Strona główna</a></button></li>
-      <li><button class="menu-button"><a href="<c:url value="/category/list"></c:url>">Lista kategorii</a></button></li>
-    </ul>
+    <%@include file="/WEB-INF/side-menu.jsp"%>
   </aside>
 
 </div>

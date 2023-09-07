@@ -9,12 +9,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0fc970d7-79f6-4f53-86eb-4e7527c9ad05" name="Changes" comment="AuthorListDone">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/author/add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/author/add.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/author/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/author/list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/side-menu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/side-menu.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/styles.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/styles.jsp" afterDir="false" />
+    <list default="true" id="0fc970d7-79f6-4f53-86eb-4e7527c9ad05" name="Changes" comment="AuthorAddDone &amp; minor changes">
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/author/delete.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/author/delete.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/author/update.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/author/update.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -185,7 +182,7 @@
       <option name="presentableId" value="Default" />
       <updated>1693931123155</updated>
       <workItem from="1693931125007" duration="5424000" />
-      <workItem from="1694018928189" duration="11847000" />
+      <workItem from="1694018928189" duration="12171000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1693933564400</created>
@@ -229,7 +226,14 @@
       <option name="project" value="LOCAL" />
       <updated>1694100359335</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="AuthorAddDone &amp; minor changes">
+      <created>1694100918281</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1694100918281</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -242,6 +246,7 @@
     <MESSAGE value="CategoryUpdateAdded in progress CategoryDelete" />
     <MESSAGE value="CategoryDeleteAdded" />
     <MESSAGE value="AuthorListDone" />
-    <option name="LAST_COMMIT_MESSAGE" value="AuthorListDone" />
+    <MESSAGE value="AuthorAddDone &amp; minor changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="AuthorAddDone &amp; minor changes" />
   </component>
 </project>
