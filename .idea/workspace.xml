@@ -9,14 +9,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0fc970d7-79f6-4f53-86eb-4e7527c9ad05" name="Changes" comment="CategoryDeleteAdded">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/controllers/AuthorController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/author/add.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/author/delete.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/author/list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/author/update.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dao/AuthorDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dao/AuthorDao.java" afterDir="false" />
+    <list default="true" id="0fc970d7-79f6-4f53-86eb-4e7527c9ad05" name="Changes" comment="AuthorListDone">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/author/add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/author/add.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/author/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/author/list.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/side-menu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/side-menu.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/styles.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/styles.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -187,7 +185,7 @@
       <option name="presentableId" value="Default" />
       <updated>1693931123155</updated>
       <workItem from="1693931125007" duration="5424000" />
-      <workItem from="1694018928189" duration="11164000" />
+      <workItem from="1694018928189" duration="11847000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1693933564400</created>
@@ -224,7 +222,14 @@
       <option name="project" value="LOCAL" />
       <updated>1694028328399</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="AuthorListDone">
+      <created>1694100359335</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1694100359335</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -236,6 +241,7 @@
     <MESSAGE value="CategoryListAdded" />
     <MESSAGE value="CategoryUpdateAdded in progress CategoryDelete" />
     <MESSAGE value="CategoryDeleteAdded" />
-    <option name="LAST_COMMIT_MESSAGE" value="CategoryDeleteAdded" />
+    <MESSAGE value="AuthorListDone" />
+    <option name="LAST_COMMIT_MESSAGE" value="AuthorListDone" />
   </component>
 </project>

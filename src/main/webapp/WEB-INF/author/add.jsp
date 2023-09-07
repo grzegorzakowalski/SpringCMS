@@ -25,12 +25,12 @@
     <div class="form-container">
       <form:form modelAttribute="author" method="post">
         <div class="form-field">
-          <h2 style="color: #009900;">Dodaj kategorię</h2>
-          <label>Nazwa:</label>
+          <h2 style="color: #009900;">Dodaj autora</h2>
+          <label>Imię:</label>
           <form:input path="firstName"></form:input>
         </div>
         <div class="form-field">
-          <label>Opis:</label>
+          <label>Nazwisko:</label>
           <form:input path="lastName"></form:input>
         </div>
         <button type="submit" class="add-button">Dodaj</button>

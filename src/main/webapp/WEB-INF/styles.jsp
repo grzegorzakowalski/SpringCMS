@@ -72,7 +72,11 @@
     border: none;
     border-radius: 3px;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    transition: color 0.3s ease;
+  }
+  .menu-button:hover{
+      color: #009900;
+      cursor: pointer;
   }
   .add-button {
       display: block;
@@ -127,7 +131,7 @@
   a {
       text-decoration: none;
       color: white;
-      transition: background-color 0.3s ease;
+      transition: color 0.3s ease;
   }
   a:hover {
       color: #009900;

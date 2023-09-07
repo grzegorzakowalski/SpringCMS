@@ -45,7 +45,7 @@
 
       </tbody>
     </table>
-    <button class="add-button"><a href="<c:url value="/author/add"></c:url>">Dodaj kategorię</a></button>
+    <button class="add-button"><a href="<c:url value="/author/add"></c:url>">Dodaj autora</a></button>
   </main>
   <aside class="sidebar">
     <h2 STYLE="text-align: center">Menu</h2>

@@ -7,7 +7,7 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <ul>
-    <li><button class="menu-button"><a href="<c:url value="/"></c:url>">Strona główna</a></button></li>
-    <li><button class="menu-button"><a href="<c:url value="/category/list"></c:url>">Lista kategorii</a></button></li>
-    <li><button class="menu-button"><a href="<c:url value="/author/list"></c:url>">Lista autorów</a></button></li>
+    <li><a href="<c:url value="/"></c:url>"><button class="menu-button">Strona główna</button></a></li>
+    <li><a href="<c:url value="/category/list"></c:url>"><button class="menu-button">Lista kategorii</button></a></li>
+    <li><a href="<c:url value="/author/list"></c:url>"><button class="menu-button">Lista autorów</button></a></li>
 </ul>
